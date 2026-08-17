@@ -7,6 +7,10 @@ site/.netlify/
 data/raw/*.csv
 data/raw/*.zip
 
+# runtime state / secrets
+logs/
+.env.discord
+
 # local env / tooling
 __pycache__/
 *.pyc

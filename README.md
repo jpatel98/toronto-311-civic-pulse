@@ -35,9 +35,15 @@ cp JSON -> site/dist/data/  ->  Netlify deploy (toronto311-jigar.netlify.app)
   read server-side from `~/dev/deepseek-harness/.env` and never committed.
 - `site/` — React 18 + Vite static app. Hand-rolled SVG sparklines and bars,
   zero chart dependencies. Fetches `data/civic-pulse.json` at runtime.
-- Nightly refresh — the pipeline runs, the new JSON is copied into `site/dist/`,
-  and Netlify redeploys. The AI briefs are regenerated every night so the
-  summary always matches the numbers on the page.
+- Nightly refresh — fully standalone, no agent required. A systemd user timer
+  (`toronto311-refresh.timer`, 05:00 America/Toronto, `Persistent=true`) runs
+  `refresh.sh`: pipeline -> new JSON copied into `site/dist/` -> Netlify
+  redeploy. Logs go to `logs/refresh.log` (also visible via
+  `journalctl --user -u toronto311-refresh`). The AI briefs are regenerated
+  every night so the summary always matches the numbers on the page.
+- Failure alerts: `notify.sh` posts a message to a Discord webhook if
+  `WEBHOOK_URL` is present in `.env.discord` (gitignored; optional). Without
+  it, failures are visible in the log and journald only.
 
 ## A note on the AI briefs
 
