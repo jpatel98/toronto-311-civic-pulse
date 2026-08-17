@@ -130,7 +130,9 @@ def agg(rows, now):
 
     wards = defaultdict(list)
     for r in in_win:
-        wards[r['ward'] or 'Unknown'].append(r)
+        if not re.search(r'\(\d+\)', r['ward']):
+            continue  # drop 'Unknown'/blank ward labels from the ward explorer
+        wards[r['ward']].append(r)
     ward_out = []
     for w, sub in sorted(wards.items(), key=lambda kv: ward_num(kv[0])):
         prev = [r for r in in_prev if r['ward'] == w]

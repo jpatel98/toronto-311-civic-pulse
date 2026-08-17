@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-08-17T02:00:28",
+ "generated_at": "2026-08-17T02:33:41",
  "source": "City of Toronto Open Data - 311 Service Requests (Customer Initiated)",
  "city": {
-  "now": "2026-08-17T02:00:28.946748",
+  "now": "2026-08-17T02:33:41.778671",
   "window_days": 90,
   "stats": {
-   "count": 122784,
+   "count": 122782,
    "completion_rate": 62.1,
    "open_count": 46578,
    "oldest_open_days": 89,
@@ -13,7 +13,7 @@
    "daily": [
     {
      "d": "2026-05-19",
-     "n": 2080
+     "n": 2078
     },
     {
      "d": "2026-05-20",
@@ -309,7 +309,7 @@
     }
    ]
   },
-  "prev_count": 127169,
+  "prev_count": 127170,
   "top_types": [
    {
     "type": "General Pruning",
@@ -329,7 +329,7 @@
    },
    {
     "type": "Residential Bin Lid Damaged",
-    "count": 4535
+    "count": 4534
    },
    {
     "type": "Injured - Wildlife",
@@ -370,61 +370,6 @@
   ]
  },
  "wards": [
-  {
-   "ward": "Unknown",
-   "stats": {
-    "count": 5,
-    "completion_rate": 80.0,
-    "open_count": 1,
-    "oldest_open_days": 43,
-    "oldest_open_type": "Damaged Concrete Sidewalk",
-    "daily": [
-     {
-      "d": "2026-06-19",
-      "n": 1
-     },
-     {
-      "d": "2026-06-24",
-      "n": 1
-     },
-     {
-      "d": "2026-07-04",
-      "n": 1
-     },
-     {
-      "d": "2026-07-22",
-      "n": 1
-     },
-     {
-      "d": "2026-07-28",
-      "n": 1
-     }
-    ]
-   },
-   "prev_count": 3,
-   "top_types": [
-    {
-     "type": "Injured - Wildlife",
-     "count": 1
-    },
-    {
-     "type": "Suggestions about Signs in Parks",
-     "count": 1
-    },
-    {
-     "type": "Damaged Concrete Sidewalk",
-     "count": 1
-    },
-    {
-     "type": "Park Litter and Garbage",
-     "count": 1
-    },
-    {
-     "type": "Pollution Spill & Illegal Dumping Response",
-     "count": 1
-    }
-   ]
-  },
   {
    "ward": "Etobicoke North (01)",
    "stats": {
@@ -2438,7 +2383,7 @@
   {
    "ward": "Humber River-Black Creek (07)",
    "stats": {
-    "count": 3039,
+    "count": 3038,
     "completion_rate": 66.3,
     "open_count": 1025,
     "oldest_open_days": 89,
@@ -2446,7 +2391,7 @@
     "daily": [
      {
       "d": "2026-05-19",
-      "n": 54
+      "n": 53
      },
      {
       "d": "2026-05-20",
@@ -8468,7 +8413,7 @@
   {
    "ward": "Scarborough-Rouge Park (25)",
    "stats": {
-    "count": 4796,
+    "count": 4795,
     "completion_rate": 60.4,
     "open_count": 1897,
     "oldest_open_days": 89,
@@ -8476,7 +8421,7 @@
     "daily": [
      {
       "d": "2026-05-19",
-      "n": 120
+      "n": 119
      },
      {
       "d": "2026-05-20",
@@ -8772,7 +8717,7 @@
      }
     ]
    },
-   "prev_count": 4592,
+   "prev_count": 4593,
    "top_types": [
     {
      "type": "Long Grass and Prohibited Plants on Private Property",
@@ -8784,7 +8729,7 @@
     },
     {
      "type": "Residential Bin Lid Damaged",
-     "count": 214
+     "count": 213
     },
     {
      "type": "Tree Emergency Clean-Up",
@@ -10117,7 +10062,7 @@
   {
    "type": "Residential Bin Lid Damaged",
    "stats": {
-    "count": 4535,
+    "count": 4534,
     "completion_rate": 91.8,
     "open_count": 374,
     "oldest_open_days": 89,
@@ -10125,7 +10070,7 @@
     "daily": [
      {
       "d": "2026-05-19",
-      "n": 107
+      "n": 106
      },
      {
       "d": "2026-05-20",
@@ -10421,7 +10366,7 @@
      }
     ]
    },
-   "prev_count": 4561,
+   "prev_count": 4562,
    "top_wards": [
     {
      "ward": "Etobicoke Centre (02)",
@@ -14174,42 +14119,41 @@
   }
  ],
  "briefs": {
-  "city": "Toronto\u2019s 311 service received 122,784 requests over the last 90 days, with 62.1 percent completed and 46,578 still open; the oldest unresolved case, a property standards and maintenance violation, is 89 days old. Request volume is down 3.4 percent from the prior 90-day period. The most common complaints were general pruning (5,632), property standards and maintenance violations (4,979), long grass and prohibited plants on private property (4,746), tree emergency clean-up (4,578), and residential bin lid damage (4,535).",
-  "ward:Unknown": "In the last 90 days, the city received five service requests in an unknown ward, with four completed and one open, an 80.0 percent completion rate. The oldest open request, for a Damaged Concrete Sidewalk, is 43 days old, and total requests rose 66.7 percent from the prior 90-day period. The five requests were evenly split among Injured - Wildlife, Suggestions about Signs in Parks, Damaged Concrete Sidewalk, Park Litter and Garbage, and Pollution Spill & Illegal Dumping Response.",
-  "ward:Etobicoke North (01)": "In Etobicoke North (Ward 01), 3,841 service requests were filed over the last 90 days, with 67.4 percent completed and 1,252 still open. The oldest unresolved case, a sidewalk cleaning issue, is 89 days old, and overall request volume is down 1.0 percent from the prior 90-day period. The most common complaints were long grass and prohibited plants (238), damaged residential bin lids (216), property standards violations (198), tree emergency clean-ups (186), general pruning (156), and road potholes or damage (120).",
-  "ward:Etobicoke Centre (02)": "In Etobicoke Centre (Ward 02), 5,709 service requests were logged over the last 90 days, with 65.5 percent completed and 1,968 still open. The oldest pending request, filed 89 days ago, is for a report of an encroachment on city property. Request volume rose 1.5 percent from the prior 90-day period, led by 345 tree emergency clean-ups, 326 general pruning jobs, and 277 residential bin lid repairs.",
-  "ward:Etobicoke-Lakeshore (03)": "Etobicoke-Lakeshore (Ward 03) logged 6,596 service requests over the last 90 days, a 0.7 percent drop from the prior period, with 63.9 percent completed and 2,381 still open. The oldest unresolved case, a restoration-related issue, has been pending for 89 days. The most common requests were 349 tree emergency clean-ups, 318 general prunings, 247 residential bin lid damages, 233 injured wildlife reports, 227 road pothole or damage calls, and 218 long grass or prohibited plant complaints.",
-  "ward:Parkdale-High Park (04)": "Ward 04 (Parkdale-High Park) logged 5,788 service requests in the last 90 days, with 65.6 percent completed and 1,992 still open; the oldest unresolved case, a Construction Noise complaint, is 89 days old. Request volume is down 3.7 percent from the prior 90-day period. The most common issues were Tree Emergency Clean-Up (303), General Pruning (290), Property Standards and Maintenance Violations (265), Residential Bin Lid Damaged (251), Injured Wildlife (239), and Pick Up Dead Wildlife (196).",
-  "ward:York South-Weston (05)": "In Toronto\u2019s Ward York South-Weston (05), residents filed 4,680 service requests over the last 90 days, with 63.5 percent completed and 1,709 still open. The oldest pending case, a water-miscellaneous issue, has been open for 89 days. Request volume is down 6.7 percent from the prior 90 days, led by 266 property standards and maintenance violations, 221 general pruning jobs, and 200 long grass and prohibited plants complaints.",
-  "ward:York Centre (06)": "Ward York Centre (06) logged 4,602 service requests over the last 90 days, with 66.8 percent completed and 1,529 still open; the oldest pending item is an 89-day-old business complaint. Request volume fell 16.4 percent compared to the prior 90-day period. The top request categories were moving motor vehicle noise at 587, long grass and prohibited plants on private property at 218, residential bin lid damage at 177, property standards and maintenance violations at 170, general pruning at 140, and road potholes or road damage at 121.",
-  "ward:Humber River-Black Creek (07)": "Ward 7, Humber River-Black Creek, logged 3,039 service requests in the last 90 days, with 66.3 percent completed and 1,025 still open. The oldest pending item, a street furniture request, is 89 days old, and overall request volume is down 10.2 percent from the prior 90-day period. The top request categories were property standards violations at 194, long grass complaints at 162, damaged residential bin lids at 124, general pruning at 119, amplified music noise at 110, and illegal dumping on private property at 89.",
-  "ward:Eglinton-Lawrence (08)": "In the last 90 days, Ward 8 (Eglinton-Lawrence) logged 5,583 service requests, with 63.9 percent completed and 2,015 still open. The oldest pending item, a sidewalk litter cleanup request, is 89 days old, and overall request volume is down 9.2 percent from the prior 90 days. The most common issues were general pruning (343), residential bin lid damage (253), and tree emergency clean-ups (249).",
-  "ward:Davenport (09)": "Ward 09 logged 6,628 service requests over the past 90 days, with 59.8 percent completed and 2,667 still open. The oldest pending case, a dead wildlife pickup, has been open for 89 days. Request volume fell 0.7 percent from the prior 90-day period, led by 323 property standards and maintenance violations, 318 graffiti complaints, and 285 general pruning requests.",
-  "ward:Spadina-Fort York (10)": "Ward 10 (Spadina-Fort York) logged 5,870 service requests over the last 90 days, with 56.9 percent completed and 2,531 still open. The oldest pending case, a Process or Procedure complaint about Toronto Water, is 89 days old, and overall request volume is up 3.7 percent from the prior 90-day period. The top categories were amplified music noise (358), illegal dumping cleanup (261), injured wildlife (232), private graffiti (219), postering on city property (173), and potholes (165).",
-  "ward:University-Rosedale (11)": "Ward 11 University-Rosedale logged 7,111 service requests over the last 90 days, with 57.2 percent completed and 3,044 still open. The oldest open case is an 89-day-old Street Furniture Request, and overall volume is up 5.2 percent from the prior 90-day period. The top request types were Graffiti on Private Property at 451, General Pruning at 300, Property Standards and Maintenance Violations at 276, Injured Wildlife at 273, Tree Emergency Clean-Up at 268, and Residential Bin Lid Damaged at 222.",
-  "ward:Toronto-St. Paul's (12)": "Toronto-St. Paul's (Ward 12) logged 5,332 service requests over the last 90 days, with 60.1 percent completed and 2,128 still open, a 9.4 percent drop from the prior period. The oldest unresolved case, a property standards and maintenance violation, has been open for 89 days. The most common complaints were general pruning (298), road potholes or damage (283), tree emergency clean-up (281), residential bin lid damage (232), property standards violations (201), and dead wildlife pickup (181).",
-  "ward:Toronto Centre (13)": "Toronto Centre ward 13 logged 5,359 service requests in the last 90 days, a 4.2 percent increase over the prior period, with 55.8 percent completed and 2,370 still open. The oldest unresolved case, a property standards and maintenance violation, has sat for 89 days. Leading complaint categories were illegal dumping on city road allowances at 272, injured wildlife at 268, property standards violations at 244, amplified music noise at 168, graffiti on private property at 149, and postering on city structures at 136.",
-  "ward:Toronto-Danforth (14)": "In Toronto-Danforth (Ward 14), 7,276 service requests were filed over the last 90 days, with 57.4 percent completed and 3,100 still open; the oldest unresolved case, a dead wildlife pickup, is 89 days old. Request volume fell 3.0 percent from the prior 90-day period. The most common requests were 377 for general pruning, 326 for tree emergency clean-up, 271 for property standards violations, 227 for injured wildlife, 220 for dead wildlife pickup, and 214 for road potholes or damage.",
-  "ward:Don Valley West (15)": "Ward 15 Don Valley West logged 4,815 service requests over the last 90 days, with 64.8 percent completed and 1,697 still open; the oldest pending case is an 89-day-old sink hole. Request volume is down 1.4 percent from the prior 90-day period. The most common issues were general pruning at 275, tree emergency clean-up at 262, road potholes or damage at 224, property standards violations at 211, long grass on private property at 185, and damaged residential bin lids at 179.",
-  "ward:Don Valley East (16)": "Ward 16 (Don Valley East) logged 2,768 service requests over the past 90 days, with 68.2 percent completed and 879 still open. The oldest open request, for park lighting maintenance, is 89 days old, and overall volume is down 13.3 percent from the prior 90 days. The top request categories were road pothole or road damage (139), property standards violations (136), injured wildlife (134), residential bin lid damage (123), long grass on private property (120), and dead wildlife pickup (113).",
-  "ward:Don Valley North (17)": "In the last 90 days, Ward 17 Don Valley North logged 3,563 service requests, with 66.5 percent completed and 1,192 still open, a rise of 11.0 percent over the prior period. The oldest pending case, a General Tree Maintenance issue, has been open for 89 days. The most common complaints were Long Grass and Prohibited Plants on Private Property at 295, Residential Bin Lid Damaged at 182, General Pruning at 149, Tree Emergency Clean-Up at 142, Property Standards and Maintenance Violations at 112, and Injured Wildlife at 106.",
-  "ward:Willowdale (18)": "Ward 18, Willowdale, logged 4,022 service requests over the last 90 days, with a completion rate of 66.7 percent and 1,338 cases still open. The oldest pending request is an injured wildlife call from 89 days ago, and overall volume is up 1.0 percent from the prior 90-day period. The most common issues were long grass and prohibited plants on private property at 295 requests, followed by road potholes at 174, general pruning at 142, property standards violations at 137, dead wildlife pickup at 132, and residential bin lid damage at 130.",
-  "ward:Beaches-East York (19)": "In the last 90 days, Ward 19 (Beaches-East York) logged 6,151 service requests, with 63.2 percent completed and 2,266 still open. The oldest open request, for water service turn-on, is 89 days old, and total volume is down 1.3 percent from the prior 90 days. The most common requests were 298 for general pruning, 256 for tree emergency clean-up, 253 for property standards violations, 230 for dead wildlife pickup, 214 for injured wildlife, and 187 for residential bin lid damage.",
-  "ward:Scarborough Southwest (20)": "Ward Scarborough Southwest (20) logged 5,453 service requests over the last 90 days, with 60.1 percent completed and 2,174 still open. The oldest unresolved case, an 89-day-old complaint about solid waste collection at a large apartment or condo building, remains active. Request volume fell 2.8 percent compared to the prior 90-day period, led by 416 complaints about long grass and prohibited plants, 258 property standards violations, and 198 general pruning requests.",
-  "ward:Scarborough Centre (21)": "In the last 90 days, Ward 21 (Scarborough Centre) logged 4,461 service requests, with 57.6 percent completed and 1,892 still open; the oldest pending case is an 89-day-old Maintenance Holes Lid Loose/Missing report. Request volume fell 4.3 percent from the prior 90-day period. The top categories were Long Grass and Prohibited Plants on Private Property (425), Property Standards and Maintenance Violations (206), General Pruning (192), Residential Bin Lid Damaged (173), Pick up Dead Wildlife (160), and Injured - Wildlife (142).",
-  "ward:Scarborough-Agincourt (22)": "In Ward 22, Scarborough-Agincourt, 2,749 service requests were filed over the last 90 days, with 62.2 percent completed and 1,040 still open. The oldest pending request, for long grass and prohibited plants on private property, is 89 days old. Request volume is down 31.0 percent from the prior 90 days, led by 192 general pruning jobs, 136 long grass complaints, and 113 property standards violations.",
-  "ward:Scarborough North (23)": "Ward 23, Scarborough North, logged 2,951 service requests over the past 90 days, with 63.6 percent completed and 1,074 still open. The oldest unresolved case, an unauthorized tree injury or removal, has been pending for 89 days. Request volume is down 9.9 percent from the prior 90-day period, led by 204 general pruning jobs, 190 residential bin lid repairs, and 125 long grass complaints.",
-  "ward:Scarborough-Guildwood (24)": "In the last 90 days, Ward 24 (Scarborough-Guildwood) logged 3,636 service requests, with 61.0 percent completed and 1,417 still open. The oldest pending item, a damaged or ponding driveway, has sat unresolved for 89 days. Request volume is down 2.1 percent from the prior period, led by 301 cases of long grass and prohibited plants, 202 property standard violations, and 192 damaged residential bin lids.",
-  "ward:Scarborough-Rouge Park (25)": "Ward 25 (Scarborough-Rouge Park) logged 4,796 service requests over the last 90 days, with 60.4 percent completed and 1,897 still open. The oldest pending case, a residential garbage pickup failure for an entire street, is 89 days old. Request volume rose 4.4 percent versus the prior 90 days, led by 348 long-grass and prohibited-plant complaints, 345 pruning jobs, and 214 damaged bin lids.",
-  "type:General Pruning": "Toronto\u2019s 311 service logged 5,632 general pruning requests over the last 90 days, with only 4.7 percent completed and 5,370 still open, the oldest pending for 89 days. That volume is up 250 percent from the prior 90-day period. The most requests came from Toronto-Danforth (377), Scarborough-Rouge Park (345), Eglinton-Lawrence (343), and Etobicoke Centre (326).",
-  "type:Property Standards and Maintenance Violations": "Toronto logged 4,979 property standards and maintenance complaints with 311 in the last 90 days, a 9.8 percent increase over the prior period. Of those, 2,908 remain open, with 41.6 percent completed and the oldest unresolved case sitting at 89 days. Davenport (ward 9) led with 323 requests, followed by University-Rosedale (11) at 276, Toronto-Danforth (14) at 271, and York South-Weston (5) at 266.",
-  "type:Long Grass and Prohibited Plants on Private Property": "Toronto\u2019s 311 service has logged 4,746 complaints about long grass and prohibited plants on private property in the last 90 days, a 1,928.2 percent jump from the prior period, with 3,320 cases still open and 30.0 percent completed. The oldest unresolved complaint is 89 days old. Scarborough wards dominate the backlog: Scarborough Centre (21) leads with 425 requests, followed by Scarborough Southwest (20) at 416, Scarborough-Rouge Park (25) at 348, and Scarborough-Guildwood (24) at 301.",
+  "city": "The City of Toronto received 122,782 requests through 311 in the last 90 days, with 62.1 percent completed and 46,578 still open. The oldest open request, a Property Standards and Maintenance Violation, is 89 days old, and overall volume is down 3.5 percent from the prior 90-day period. The top five request types were General Pruning at 5,632, Property Standards and Maintenance Violations at 4,979, Long Grass and Prohibited Plants on Private Property at 4,746, Tree Emergency Clean-Up at 4,578, and Residential Bin Lid Damaged at 4,534.",
+  "ward:Etobicoke North (01)": "In Etobicoke North (Ward 01), 3,841 service requests were logged over the last 90 days, with 67.4 percent completed and 1,252 still open. The oldest pending item is an 89-day-old sidewalk cleaning request, and overall volume is down 1.0 percent from the prior 90-day period. The most common complaints were long grass and prohibited plants (238), damaged residential bin lids (216), property standards violations (198), tree emergency clean-ups (186), general pruning (156), and road potholes or damage (120).",
+  "ward:Etobicoke Centre (02)": "In Etobicoke Centre (Ward 02), 5,709 service requests were logged over the last 90 days, with 65.5 percent completed and 1,968 still open. The oldest pending request, filed 89 days ago, concerns an encroachment report on city property. Request volume rose 1.5 percent from the prior 90-day period, led by 345 tree emergency clean-ups, 326 general pruning jobs, and 277 residential bin lid repairs.",
+  "ward:Etobicoke-Lakeshore (03)": "Etobicoke-Lakeshore logged 6,596 service requests over the last 90 days, with 63.9 percent completed and 2,381 still open. The oldest unresolved case, a restoration-related issue, is 89 days old, and overall volume dipped 0.7 percent from the prior period. The most common complaints were 349 tree emergency clean-ups, 318 general prunings, 247 damaged residential bin lids, 233 injured wildlife reports, 227 road potholes, and 218 long grass or prohibited plant violations.",
+  "ward:Parkdale-High Park (04)": "Ward 04 (Parkdale-High Park) logged 5,788 service requests in the last 90 days, with 65.6 percent completed and 1,992 still open; the oldest unresolved case is an 89-day-old Construction Noise complaint. Request volume is down 3.7 percent from the prior 90-day period. The most common issues were Tree Emergency Clean-Up (303), General Pruning (290), Property Standards and Maintenance Violations (265), Residential Bin Lid Damaged (251), Injured Wildlife (239), and Pick Up Dead Wildlife (196).",
+  "ward:York South-Weston (05)": "In Toronto\u2019s Ward York South-Weston (05), residents filed 4,680 service requests over the last 90 days, with 63.5 percent completed and 1,709 currently open. The oldest pending request, a water-miscellaneous issue, is 89 days old. Request volume is down 6.7 percent from the prior 90-day period, led by 266 property standards and maintenance violations, 221 general pruning jobs, and 200 long grass and prohibited plants complaints.",
+  "ward:York Centre (06)": "Ward York Centre (06) logged 4,602 service requests in the last 90 days, with 66.8 percent completed and 1,529 still open; the oldest pending item is an 89-day-old business complaint. Request volume fell 16.4 percent from the prior 90-day period. The most common complaints were moving motor vehicle noise (587), long grass and prohibited plants on private property (218), residential bin lid damage (177), property standards and maintenance violations (170), general pruning (140), and road potholes or road damage (121).",
+  "ward:Humber River-Black Creek (07)": "Ward 7, Humber River-Black Creek, logged 3,038 service requests in the last 90 days, with 66.3 percent completed and 1,025 still open. The oldest pending item is an 89-day-old street furniture request, and overall volume is down 10.3 percent from the prior 90 days. The top request categories were property standards violations at 194, long grass complaints at 162, damaged residential bin lids at 124, general pruning at 119, amplified music noise at 110, and illegal dumping on private property at 89.",
+  "ward:Eglinton-Lawrence (08)": "In the last 90 days, Ward 8 (Eglinton-Lawrence) logged 5,583 service requests, with 63.9 percent completed and 2,015 currently open. The oldest pending case, a sidewalk litter cleanup, is 89 days old, and overall request volume is down 9.2 percent from the prior period. The top categories were general pruning (343), residential bin lid damage (253), tree emergency clean-up (249), property standards violations (232), road potholes (228), and injured wildlife (174).",
+  "ward:Davenport (09)": "In the last 90 days, Ward 09 logged 6,628 service requests, with 59.8 percent completed and 2,667 still open, a 0.7 percent decrease from the prior period. The oldest pending item, a Pick up Dead Wildlife request, is 89 days old. The top request types were Property Standards and Maintenance Violations at 323, Graffiti on Private Property at 318, General Pruning at 285, Residential Bin Lid Damaged at 238, Injured - Wildlife at 213, and Amplified or Musical Instrument Noise at 182.",
+  "ward:Spadina-Fort York (10)": "In the last 90 days, Ward 10 (Spadina-Fort York) logged 5,870 service requests, with 56.9 percent completed and 2,531 still open. The oldest pending item, a Process or Procedure complaint about Toronto Water, is 89 days old, and overall volume is up 3.7 percent from the prior period. The most common complaints were amplified noise (358), illegal dumping (261), injured wildlife (232), private graffiti (219), postering (173), and potholes (165).",
+  "ward:University-Rosedale (11)": "Ward 11 University-Rosedale logged 7,111 service requests over the last 90 days, with 57.2 percent completed and 3,044 still open. The oldest unresolved case is an 89-day-old Street Furniture Request, and total volume rose 5.2 percent compared to the prior 90-day period. The most common requests were 451 for Graffiti on Private Property, 300 for General Pruning, 276 for Property Standards and Maintenance Violations, 273 for Injured Wildlife, 268 for Tree Emergency Clean-Up, and 222 for Residential Bin Lid Damaged.",
+  "ward:Toronto-St. Paul's (12)": "Toronto-St. Paul's ward logged 5,332 service requests in the last 90 days, with 60.1 percent completed and 2,128 still open. The oldest unresolved case, a property standards and maintenance violation, is 89 days old. Request volume fell 9.4 percent from the prior 90-day period, led by 298 general pruning calls, 283 road pothole reports, and 281 tree emergency clean-ups.",
+  "ward:Toronto Centre (13)": "Toronto Centre ward 13 logged 5,359 service requests in the last 90 days, a 4.2 percent increase over the prior period, with 55.8 percent completed and 2,370 still open. The oldest unresolved case, a property standards and maintenance violation, has sat for 89 days. Leading request types were illegal dumping on city road allowance at 272, injured wildlife at 268, property standards violations at 244, amplified music noise at 168, graffiti on private property at 149, and postering on city structures at 136.",
+  "ward:Toronto-Danforth (14)": "In Toronto-Danforth (Ward 14), 7,276 service requests were filed over the last 90 days, with 57.4 percent completed and 3,100 still open; the oldest pending case, a dead wildlife pickup, is 89 days old. Request volume fell 3.0 percent from the prior 90-day period. The most common requests were 377 for general pruning, 326 for tree emergency clean-up, 271 for property standards violations, 227 for injured wildlife, 220 for dead wildlife pickup, and 214 for road potholes or damage.",
+  "ward:Don Valley West (15)": "Ward 15 Don Valley West logged 4,815 service requests over the past 90 days, with 64.8 percent completed and 1,697 still open. The oldest unresolved case is an 89-day-old sink hole report, and overall request volume is down 1.4 percent from the prior 90-day period. The most common issues were general pruning at 275, tree emergency clean-up at 262, and road pothole or damage at 224.",
+  "ward:Don Valley East (16)": "Ward 16 Don Valley East logged 2,768 service requests over the past 90 days, with 68.2 percent completed and 879 still open. The oldest unresolved case, a Park Lighting Maintenance issue, has been pending for 89 days. Request volume fell 13.3 percent from the prior 90-day period, led by 139 Road Pothole / Road Damage complaints, 136 Property Standards and Maintenance Violations, and 134 Injured - Wildlife calls.",
+  "ward:Don Valley North (17)": "In Toronto\u2019s Ward 17 (Don Valley North), 3,563 service requests were logged over the last 90 days, with 66.5 percent completed and 1,192 still open. The oldest pending request, a General Tree Maintenance issue, has been unresolved for 89 days. Request volume is up 11 percent from the prior 90-day period, led by 295 cases of long grass and prohibited plants on private property, 182 residential bin lid damages, and 149 general pruning jobs.",
+  "ward:Willowdale (18)": "Ward 18 (Willowdale) logged 4,022 service requests in the last 90 days, with 66.7% completed and 1,338 still open. The oldest unresolved case is an injured wildlife report at 89 days, and overall request volume rose 1.0% compared to the prior 90-day period. The top request categories were long grass and prohibited plants on private property (295), road potholes or damage (174), general pruning (142), property standards violations (137), dead wildlife pickup (132), and damaged residential bin lids (130).",
+  "ward:Beaches-East York (19)": "In the last 90 days, Ward 19 Beaches-East York logged 6,151 service requests, with 63.2 percent completed and 2,266 still open; the oldest pending item, a water service turn-on request, is 89 days old. Request volume is down 1.3 percent from the prior 90-day period. The most common requests were 298 for general pruning, 256 for tree emergency clean-up, 253 for property standards violations, 230 for dead wildlife pickup, 214 for injured wildlife, and 187 for residential bin lid damage.",
+  "ward:Scarborough Southwest (20)": "Ward Scarborough Southwest (20) logged 5,453 service requests over the last 90 days, with 60.1 percent completed and 2,174 still open. The oldest unresolved case, a complaint about solid waste collection at a large apartment or condo building, has been pending for 89 days. Request volume fell 2.8 percent from the prior 90-day period, led by 416 complaints about long grass and prohibited plants on private property.",
+  "ward:Scarborough Centre (21)": "Ward 21, Scarborough Centre, logged 4,461 service requests over the past 90 days, with 57.6 percent completed and 1,892 still open. The oldest pending case, a loose or missing maintenance hole lid, is 89 days old, and overall request volume is down 4.3 percent from the prior 90 days. The most common complaints were long grass and prohibited plants on private property at 425, followed by property standards violations at 206 and general pruning at 192.",
+  "ward:Scarborough-Agincourt (22)": "In the last 90 days, Ward 22 Scarborough-Agincourt logged 2,749 service requests, with 62.2 percent completed and 1,040 still open. The oldest pending case, a Long Grass and Prohibited Plants on Private Property complaint, is 89 days old. Requests are down 31.0 percent from the prior 90 days, led by 192 General Pruning calls and 136 Long Grass complaints.",
+  "ward:Scarborough North (23)": "Ward 23, Scarborough North, logged 2,951 service requests over the past 90 days, with 63.6 percent completed and 1,074 still open. The oldest unresolved case is an 89-day-old unauthorized tree injury or removal. Request volume is down 9.9 percent from the prior 90 days, led by 204 general pruning jobs, 190 residential bin lid damages, and 125 long grass complaints.",
+  "ward:Scarborough-Guildwood (24)": "In the last 90 days, Ward 24 (Scarborough-Guildwood) logged 3,636 service requests, with 61.0 percent completed and 1,417 still open. The oldest pending case, a damaged driveway or ponding issue, has been open for 89 days. Request volume is down 2.1 percent from the prior 90-day period, led by 301 cases of long grass and prohibited plants on private property, followed by 202 property standards violations and 192 residential bin lid damages.",
+  "ward:Scarborough-Rouge Park (25)": "Ward 25, Scarborough-Rouge Park, logged 4,795 service requests over the last 90 days, with 60.4 percent completed and 1,897 still open. The oldest unresolved case, a residential garbage pickup failure on a whole street, is 89 days old. Requests rose 4.4 percent versus the prior 90 days, led by 348 long grass and prohibited plants complaints, 345 pruning requests, and 213 damaged bin lid reports.",
+  "type:General Pruning": "Toronto\u2019s 311 service logged 5,632 general pruning requests over the last 90 days, with only 4.7 percent completed and 5,370 still open, the oldest pending for 89 days. That volume is up 250 percent from the prior 90-day period. The highest counts came from Toronto-Danforth (377), Scarborough-Rouge Park (345), Eglinton-Lawrence (343), and Etobicoke Centre (326).",
+  "type:Property Standards and Maintenance Violations": "Toronto\u2019s 311 service logged 4,979 property standards and maintenance violation requests over the last 90 days, a 9.8 percent increase from the prior period, with 2,908 still open and 41.6 percent completed. The oldest unresolved case dates back 89 days. Ward 9 (Davenport) led with 323 requests, followed by Ward 11 (University-Rosedale) at 276, Ward 14 (Toronto-Danforth) at 271, and Ward 5 (York South-Weston) at 266.",
+  "type:Long Grass and Prohibited Plants on Private Property": "Toronto\u2019s 311 service has logged 4,746 complaints about long grass and prohibited plants on private property over the last 90 days, a 1,928.2 percent jump from the prior period, with 3,320 still open and only 30.0 percent resolved. The oldest outstanding case is 89 days old. Scarborough Centre (21) leads with 425 requests, followed by Scarborough Southwest (20) at 416, Scarborough-Rouge Park (25) at 348, and Scarborough-Guildwood (24) at 301.",
   "type:Tree Emergency Clean-Up": "Toronto\u2019s 311 service logged 4,578 Tree Emergency Clean-Up requests over the last 90 days, a 373.9 percent jump from the prior period, with 1,623 still open and 64.5 percent completed. The oldest unresolved case is 89 days old. Etobicoke-Lakeshore (Ward 3) led with 349 requests, followed by Etobicoke Centre (Ward 2) at 345, Toronto-Danforth (Ward 14) at 326, and Parkdale-High Park (Ward 4) at 303.",
-  "type:Residential Bin Lid Damaged": "Toronto received 4,535 residential bin lid damage requests in the last 90 days, with 91.8 percent completed and 374 still open; the oldest open case is 89 days old. That volume is down 0.6 percent from the prior 90-day period. The top wards for requests were Etobicoke Centre (02) with 277, Eglinton-Lawrence (08) with 253, Parkdale-High Park (04) with 251, and Etobicoke-Lakeshore (03) with 247.",
-  "type:Injured - Wildlife": "Toronto\u2019s 311 service received 3,865 requests for injured wildlife over the last 90 days, a 39.5 percent increase from the prior period, with 512 cases still open and the oldest pending for 89 days. Completion rate stands at 86.8 percent. The highest volumes came from University-Rosedale (ward 11) with 273 requests, Toronto Centre (ward 13) with 268, Parkdale-High Park (ward 04) with 239, and Etobicoke-Lakeshore (ward 03) with 233.",
-  "type:Road Pothole / Road Damage": "Toronto received 3,704 road pothole and damage complaints through 311 in the last 90 days, with 87.1 percent completed and 478 still open, the oldest of which is 89 days old. That total marks a 76.5 percent drop from the prior 90-day period. The most complaints came from Toronto-St. Paul's ward 12 with 283, followed by Eglinton-Lawrence ward 8 with 228, Etobicoke-Lakeshore ward 3 with 227, and Don Valley West ward 15 with 224.",
-  "type:Pick up Dead Wildlife": "Toronto\u2019s 311 service received 3,313 requests to pick up dead wildlife over the last 90 days, with 81.0 percent completed and 628 still open, the oldest of which is 89 days old. That volume is up 31.4 percent from the prior 90-day period. The most requests came from Beaches-East York (ward 19) with 230, followed by Toronto-Danforth (14) at 220, Etobicoke-Lakeshore (03) at 202, and Parkdale-High Park (04) at 196.",
-  "type:Amplified or Musical Instrument Noise": "Toronto\u2019s 311 service received 2,656 amplified or musical instrument noise complaints in the last 90 days, a 70.6 percent increase over the prior period, with 788 still open and 70.3 percent completed. The oldest unresolved case is 88 days old. Spadina-Fort York led with 358 complaints, followed by Davenport at 182, University-Rosedale at 170, and Toronto Centre at 168.",
-  "type:Residential - Garbage Day Collection - Not Picked Up": "Toronto residents filed 2,145 complaints about missed residential garbage collection in the last 90 days, with 74.1 percent resolved and 556 still open, the oldest pending for 89 days. That volume is up 3.4 percent from the prior 90-day period. The most complaints came from Beaches-East York (183), Don Valley West (159), Scarborough Southwest (141), and Toronto-Danforth (136)."
+  "type:Residential Bin Lid Damaged": "Toronto\u2019s 311 service received 4,534 requests for residential bin lid repairs over the past 90 days, with 91.8 percent completed and 374 still open, the oldest pending for 89 days. That volume is down 0.6 percent from the prior 90-day period. The most requests came from Etobicoke Centre (277), followed by Eglinton-Lawrence (253), Parkdale-High Park (251), and Etobicoke-Lakeshore (247).",
+  "type:Injured - Wildlife": "Toronto received 3,865 injured-wildlife requests through 311 in the last 90 days, a 39.5 percent increase over the prior 90-day period, with 512 cases still open and the oldest pending for 89 days. Completion rate stands at 86.8 percent. The highest volumes came from University-Rosedale (273), Toronto Centre (268), Parkdale-High Park (239), and Etobicoke-Lakeshore (233).",
+  "type:Road Pothole / Road Damage": "Toronto\u2019s 311 service logged 3,704 road pothole and damage requests over the last 90 days, with 87.1 percent completed and 478 still open, the oldest pending for 89 days. That volume is down 76.5 percent from the prior 90-day period. The most requests came from Toronto-St. Paul\u2019s (ward 12) at 283, followed by Eglinton-Lawrence (ward 8) at 228, Etobicoke-Lakeshore (ward 3) at 227, and Don Valley West (ward 15) at 224.",
+  "type:Pick up Dead Wildlife": "Toronto\u2019s 311 service received 3,313 requests to pick up dead wildlife over the last 90 days, a 31.4 percent increase from the prior period, with 628 cases still open and the oldest pending for 89 days. Completion stands at 81.0 percent. The highest volumes came from Beaches-East York (230), Toronto-Danforth (220), Etobicoke-Lakeshore (202), and Parkdale-High Park (196).",
+  "type:Amplified or Musical Instrument Noise": "Toronto\u2019s 311 service received 2,656 amplified or musical instrument noise complaints in the last 90 days, a 70.6 percent increase from the prior period, with 788 cases still open and 70.3 percent resolved. The oldest unresolved complaint dates back 88 days. Ward 10 Spadina\u2013Fort York led with 358 requests, followed by Ward 9 Davenport at 182, Ward 11 University\u2013Rosedale at 170, and Ward 13 Toronto Centre at 168.",
+  "type:Residential - Garbage Day Collection - Not Picked Up": "Toronto residents filed 2,145 missed-garbage pickup requests with 311 in the last 90 days, a 3.4 percent increase over the prior period, with 74.1 percent completed and 556 still open, the oldest unresolved case dating back 89 days. Beaches-East York led all wards with 183 complaints, followed by Don Valley West at 159, Scarborough Southwest at 141, and Toronto-Danforth at 136."
  }
 }

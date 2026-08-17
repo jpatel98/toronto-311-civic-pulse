@@ -82,7 +82,12 @@ function App() {
   useEffect(() => {
     fetch('data/civic-pulse.json')
       .then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json() })
-      .then((d) => { setData(d); setWard(d.wards[0].ward) })
+      .then((d) => {
+        setData(d)
+        // default to the busiest ward (skips 'Unknown' and tiny placeholder wards)
+        const top = d.wards.reduce((a, b) => ((b.stats?.count || 0) > (a.stats?.count || 0) ? b : a), d.wards[0])
+        setWard(top.ward)
+      })
       .catch((e) => setErr(String(e)))
   }, [])
 
@@ -179,7 +184,12 @@ function App() {
             {data.categories.map((ct, i) => (
               <tr key={ct.type} className={ct.type === cat ? 'selected' : ''} onClick={() => setCat(cat === ct.type ? null : ct.type)}>
                 <td className="dim">{i + 1}</td>
-                <td className="cat-name">{ct.type}</td>
+                <td className="cat-name">
+                  {ct.type}
+                  <span className="mobile-sub">
+                    {fmt(ct.stats.count)} requests &middot; {ct.stats.completion_rate}% completed &middot; {fmt(ct.stats.open_count)} open
+                  </span>
+                </td>
                 <td>{fmt(ct.stats.count)}</td>
                 <td>{ct.stats.completion_rate}%</td>
                 <td>{fmt(ct.stats.open_count)}</td>
@@ -198,14 +208,19 @@ function App() {
 
       <section>
         <div className="section-head"><h2>Latest requests</h2></div>
-        <table className="cat-table">
+        <table className="cat-table req-table">
           <thead><tr><th>When</th><th>Ward</th><th>Request</th><th>Status</th><th>FSA</th></tr></thead>
           <tbody>
             {data.recent.map((r, i) => (
               <tr key={i}>
                 <td className="dim nowrap">{timeAgo(r.when)}</td>
                 <td className="dim">{r.ward.replace(/\s*\(\d+\)/, '')}</td>
-                <td>{r.type}</td>
+                <td>
+                  {r.type}
+                  <span className="mobile-sub">
+                    {timeAgo(r.when)} &middot; {r.ward.replace(/\s*\(\d+\)/, '')} &middot; FSA {r.fsa}
+                  </span>
+                </td>
                 <td><span className={`status ${r.status === 'Completed' ? 'ok' : 'open'}`}>{r.status}</span></td>
                 <td className="dim">{r.fsa}</td>
               </tr>
