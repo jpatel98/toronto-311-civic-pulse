@@ -1,0 +1,13 @@
+# dependencies / build output
+node_modules/
+site/dist/
+site/.netlify/
+
+# raw open data (large, re-downloadable)
+data/raw/*.csv
+data/raw/*.zip
+
+# local env / tooling
+__pycache__/
+*.pyc
+.DS_Store
